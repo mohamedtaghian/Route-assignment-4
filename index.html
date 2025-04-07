@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap file -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <main>
+      <section class="vh-100 d-flex justify-content-center align-items-center">
+        <div class="login container w-50 p-5">
+          <h1 class="mb-3 text-center">Smart Login System</h1>
+          <form>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control bg-transparent"
+                id="email-sign-in"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="password"
+                class="form-control bg-transparent"
+                id="password-sign-in"
+                placeholder="Enter your password"
+              />
+            </div>
+            <div class="status text-center fw-bold">
+              <p class="status-success text-success d-none">Success</p>
+              <p class="status-required text-danger d-none">
+                All inputs is required
+              </p>
+              <p class="status-exist text-danger d-none">
+                Email already exists
+              </p>
+              <p class="status-incorrect text-danger d-none">
+                incorrect email or password
+              </p>
+            </div>
+            <div class="mb-3">
+              <button class="btn-login btn btn-outline-info w-100 my-3">
+                Login
+              </button>
+            </div>
+          </form>
+          <p class="text-white text-center">
+            Don't have an account?
+            <a href="./signup.html" class="sign-up text-white">Sign Up</a>
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- Bootstrap file -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main JS file -->
+    <script src="./main.js"></script>
+  </body>
+</html>

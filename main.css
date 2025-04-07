@@ -1,0 +1,74 @@
+/* Start Global Rules */
+body {
+  background-color: #24353f;
+  font-family: "Titillium Web", sans-serif;
+}
+h1 {
+  color: #17a2b8;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+input {
+  color: #fff !important;
+}
+input::placeholder {
+  color: #fff !important;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.0313rem #80bdff;
+}
+a {
+  text-decoration: none;
+}
+.form-control.is-valid:focus {
+  box-shadow: 0 0 0 0.0313rem #198754;
+}
+.form-control.is-invalid:focus {
+  box-shadow: 0 0 0 0.0313rem #dc3545;
+}
+/* End Global Rules */
+
+/* Start Login */
+.login {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.btn-login:hover {
+  color: white;
+}
+a.sign-up:hover {
+  text-decoration: underline;
+}
+/* End Login */
+
+/* Start Sign Up */
+.sign-up {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.btn-sign-up:hover {
+  color: white;
+}
+a.sign-in:hover {
+  text-decoration: underline;
+}
+/* End Sign Up */
+
+/* Start Home */
+header {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+a.nav-link {
+  color: rgba(255, 255, 255, 0.5);
+  outline: 0.0625rem solid;
+}
+a.nav-link:hover {
+  color: white;
+  outline: none;
+}
+.welcome {
+  height: calc(100vh - 56px);
+}
+.welcome .wel-cont {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+/* End Home */
